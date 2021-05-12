@@ -1,3 +1,39 @@
 #wrapper {
-  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+}
+
+#sign-in {
+  width: 400px;
+  background-color: rgb(34, 152, 199);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn-form {
+  height: 60px;
+  font-size: 1.5em;
+}
+input {
+  width: 200px;
+  height: 25px;
+  display: inline-block;
+}
+label.label {
+  height: 25px;
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+input.submit-input {
+  margin-left: 105px;
+  margin-top: 25px;
+  height: 25px;
+  width: 70px;
 }
