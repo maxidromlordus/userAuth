@@ -1,13 +1,36 @@
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  padding: auto;
+}
 #wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 900px;
+  background-color: rgb(200, 238, 238);
+}
+#forms-wrapper {
+  height: 500px;
+  width: 900px;
+  display: flex;
+}
+#signin-wrapper,
+#login-wrapper {
+  background-color: rgb(155, 180, 228);
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: darkblue 0.5px solid;
+  box-shadow: 0 0 5px rgba(5, 8, 32, 0.5);
 }
 
-#sign-in {
+#sign-in,
+#log-in {
   width: 400px;
-  background-color: rgb(34, 152, 199);
   height: 200px;
   display: flex;
   justify-content: center;
