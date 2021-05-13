@@ -31,10 +31,8 @@ loginWrapper.addEventListener("mouseenter", function () {
 loginWrapper.addEventListener("mouseleave", function () {
   var focused = document.activeElement === login;
   document.activeElement.blur();
-  console.log(focused);
 
   if (loginWrapper.contains(loginFormDiv) && !focused) {
-    console.log("contains");
     loginWrapper.removeChild(loginFormDiv);
     loginWrapper.appendChild(pLoginText);
   }
