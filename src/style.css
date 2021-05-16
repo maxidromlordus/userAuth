@@ -3,6 +3,12 @@ p {
   font-size: 40px;
   padding: auto;
 }
+p.message {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  padding: auto;
+  color: red;
+}
 #wrapper {
   display: flex;
   align-items: center;
